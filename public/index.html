@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>Alta Producto</div>
+    <form action="/api/productos" method="post">      
+        Title: <input type="text" name="title" id="title"> <br />
+        Price: <input type="text" name="price" id="price"> <br />
+        Thumb: <input type="text" name="thumb" id="thumb"> <br />
+        <input type="submit" value="Enviar">
+    </form>
+
+    <!--<div>Modificacion Producto</div>
+    <form action="/api/productos/5" method="put">
+        Title: <input type="text" name="title" id="title"> <br />
+        Price: <input type="text" name="price" id="price"> <br />
+        Thumb: <input type="text" name="thumb" id="thumb"> <br />
+        <input type="submit" value="Enviar">
+    </form>-->
+</body>
+</html>
