@@ -6,5 +6,5 @@
 ,{"id":6,"title":"pepe","price":999,"thumb":""}
 ,{"id":8,"title":"asd","price":"asd","thumb":"asd"}
 ,{"id":8,"title":"nuevo","price":"1234","thumb":"notiene"}
-,{"id":9,"title":"hola","price":"333","thumb":"mundo"}
+,{"id":9,"title":"hola mundo","price":123456,"thumb":"fotohola.gif"}
 ,{"id":10,"title":"otro","price":"444","thumb":"mundo"}

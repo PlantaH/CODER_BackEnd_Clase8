@@ -53,9 +53,9 @@ productos.delete('/:id', validateFieldId, validateFieldEmpty ,(req, res) => {
         res.status(500).send('{ "error" : "producto no encontrado"}')
 })
 
-// http://localhost:8080/api/productos/1/title/123/foto.jpg
-productos.put('/:id/:title/:price/:thumb', validateFieldId, validateFieldEmpty, (req, res) => {      
-    if ( file.change(req.params.id, req.params.title, req.params.price, req.params.thumb) )
+// http://localhost:8080/api/productos/1
+productos.put('/:id', validateFieldId, validateFieldEmpty, (req, res) => {      
+    if ( file.change(req.params.id, req.body.title, req.body.price, req.body.thumb) )
         res.status(200).send('{ "id" : "' + req.params.id + '", sucess" : "sucess"}')
     else
         res.status(500).send('{ "error" : "error de grabacion"}')
