@@ -8,3 +8,4 @@
 ,{"id":8,"title":"nuevo","price":"1234","thumb":"notiene"}
 ,{"id":9,"title":"hola mundo","price":123456,"thumb":"fotohola.gif"}
 ,{"id":10,"title":"otro","price":"444","thumb":"mundo"}
+,{"id":11,"title":"otro","price":"444","thumb":"mundo"}
